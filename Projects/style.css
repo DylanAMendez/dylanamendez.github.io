@@ -1,0 +1,109 @@
+
+
+/* ----GRID 1 COLUMNA 3 FILAS------- 
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 3px;
+    grid-row-gap: 5px;
+    } */
+
+
+    body {
+        background: #1a1a1a;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+      }
+      
+      h2, h3 {
+        color: #fff;
+        border-radius: 10px;
+      }
+  
+      .work {
+          width: 100%;
+          text-align: center;
+          z-index: 10;
+      }
+      .work .content {
+          display: flex;
+          justify-content: center;
+          flex-direction: row;
+          flex-wrap: wrap;
+          gap: 50px;
+      }
+      
+      .work .content .workBx {
+          padding: 40px 20px;
+          max-width: 340px;
+          /* margin-left: 50px; */
+          text-align: center;
+      
+      }
+      .work .content .workBx .imgBx img {
+          max-width: 200px;
+          transition: .5s;
+          margin: 15px;
+      }
+
+      .work .content .workBx .imgBx:hover {
+        background: rgb(38, 38, 38, .1);
+        transform: scale(1.4);
+        transition: all .7s ease;
+      }
+      
+      .work .content .workBx h3 {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          font-size: 20px;
+      }
+  
+      .content {
+          height: 87vh;
+          /* background-color: rgb(255, 255, 255, 0.7); */
+      }
+  
+         button {
+          border-radius: 1px;
+          /* padding: 5px; */
+          width: min-content;
+          height: max-content;
+          background-color: rgb(255, 255, 255, 0.7);
+          cursor: pointer;
+        }
+
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  a:any-link {
+    color: #000;
+    cursor: pointer;
+  }
+  a:any-link:hover {
+    color: #000;
+  }
+  
+  button:hover p {
+    color: #fff
+  }
+  
+  button:hover {
+    background-color: rgb(38, 38, 38);
+  }
+
+ .mail2 {
+    height: 55.66px;
+    /* text-decoration: #fff; */
+ } 
+
+ .info {
+  color: #fff;
+ }
+
+ .comming {
+  width: 130px;
+ }
